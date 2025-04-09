@@ -1,0 +1,28 @@
+{
+    "name": "cnrtl-definition-finder",
+    "version": "1.0.0",
+    "description": "A command-line tool to search and display word definitions from the CNRTL website",
+    "main": "index.js",
+    "bin": {
+        "cnrtl": "index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "cnrtl",
+        "dictionary",
+        "definition",
+        "french",
+        "cli"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.0",
+        "chalk": "^4.1.2",
+        "cheerio": "^1.0.0-rc.12",
+        "commander": "^11.0.0",
+        "ora": "^5.4.1"
+    }
+}
